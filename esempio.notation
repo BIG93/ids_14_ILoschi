@@ -42,6 +42,32 @@
     <element xmi:type="uml:Actor" href="esempio.uml#_hDIWUF3gEeSrbKL911wrYw"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hDIWUl3gEeSrbKL911wrYw" x="470" y="29"/>
   </children>
+  <children xmi:type="notation:Shape" xmi:id="_um0OsF3pEeS9jexDzzMeoA" type="2011">
+    <children xmi:type="notation:DecorationNode" xmi:id="_um0Osl3pEeS9jexDzzMeoA" type="5014">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_um0Os13pEeS9jexDzzMeoA" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_um9_sF3pEeS9jexDzzMeoA" type="6029">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_um9_sV3pEeS9jexDzzMeoA" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_um9_sl3pEeS9jexDzzMeoA" type="6037">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_um9_s13pEeS9jexDzzMeoA" x="20" y="80"/>
+    </children>
+    <element xmi:type="uml:Actor" href="esempio.uml#_ujZHQF3pEeS9jexDzzMeoA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_um0OsV3pEeS9jexDzzMeoA" x="337" y="56"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ONKKUV3qEeS9jexDzzMeoA" type="2011">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ONKKU13qEeS9jexDzzMeoA" type="5014">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ONKKVF3qEeS9jexDzzMeoA" x="20" y="60"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ONKKVV3qEeS9jexDzzMeoA" type="6029">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ONKKVl3qEeS9jexDzzMeoA" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ONKKV13qEeS9jexDzzMeoA" type="6037">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ONKKWF3qEeS9jexDzzMeoA" x="20" y="80"/>
+    </children>
+    <element xmi:type="uml:Actor" href="esempio.uml#_ONKKUF3qEeS9jexDzzMeoA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ONKKUl3qEeS9jexDzzMeoA" x="273" y="88"/>
+  </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_FOB3sV3gEeSrbKL911wrYw" name="diagram_compatibility_version" stringValue="1.0.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_FOB3sl3gEeSrbKL911wrYw"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_FOB3s13gEeSrbKL911wrYw">

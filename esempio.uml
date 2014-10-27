@@ -29,4 +29,6 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nlVfFl3gEeSrbKL911wrYw" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ujZHQF3pEeS9jexDzzMeoA" name="jfiej"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_ONKKUF3qEeS9jexDzzMeoA" name="bg"/>
 </uml:Model>
