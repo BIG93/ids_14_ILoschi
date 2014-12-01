@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_29eM0HliEeSAAeaFv3K_FQ" name="model">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_29eM0HliEeSAAeaFv3K_FQ" name="model">
   <packagedElement xmi:type="uml:Actor" xmi:id="_KiV6oHljEeSAAeaFv3K_FQ" name="Utente"/>
   <packagedElement xmi:type="uml:Component" xmi:id="_RXgboHljEeSAAeaFv3K_FQ" name="SmartBus" useCase="_V_3G0HljEeSAAeaFv3K_FQ _bnjIEHljEeSAAeaFv3K_FQ _fXNQsHljEeSAAeaFv3K_FQ _j-chkHljEeSAAeaFv3K_FQ _oMnLIHljEeSAAeaFv3K_FQ _uVkGYHljEeSAAeaFv3K_FQ _zwqdIHljEeSAAeaFv3K_FQ _A34yEHlkEeSAAeaFv3K_FQ _Fl-44HlkEeSAAeaFv3K_FQ _onf64HlkEeSAAeaFv3K_FQ">
     <ownedComment xmi:type="uml:Comment" xmi:id="_JgzvsHlkEeSAAeaFv3K_FQ">
@@ -212,5 +212,85 @@ sicurezza dei metodi di pagamento</body>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_FgEr4HlpEeSAAeaFv3K_FQ" name="Persona">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_p5qUEHlpEeSAAeaFv3K_FQ" name="Nome"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_481i4HlqEeSAAeaFv3K_FQ" name="Persona">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qREckHlrEeSAAeaFv3K_FQ" name="Nome">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zp6bQHlrEeSAAeaFv3K_FQ" name="Amministratore">
+    <generalization xmi:type="uml:Generalization" xmi:id="_9qCcYHlrEeSAAeaFv3K_FQ" general="_481i4HlqEeSAAeaFv3K_FQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1xjHEHl0EeSAAeaFv3K_FQ" name="notifica" type="_jMPDsHlyEeSAAeaFv3K_FQ" association="_1xjHE3l0EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1xjHEXl0EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1xjHEnl0EeSAAeaFv3K_FQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_188N0HlrEeSAAeaFv3K_FQ" name="Controllore">
+    <generalization xmi:type="uml:Generalization" xmi:id="_82CzoHlrEeSAAeaFv3K_FQ" general="_481i4HlqEeSAAeaFv3K_FQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3G4RYHlrEeSAAeaFv3K_FQ" name="Utente">
+    <generalization xmi:type="uml:Generalization" xmi:id="_9UqpUHlrEeSAAeaFv3K_FQ" general="_481i4HlqEeSAAeaFv3K_FQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vhy7sHlsEeSAAeaFv3K_FQ" name="Tratta"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_cJxVQHlsEeSAAeaFv3K_FQ" name="Biglietto">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2plF0Hl1EeSAAeaFv3K_FQ" name="tratta" type="_Vhy7sHlsEeSAAeaFv3K_FQ" association="_2plF03l1EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2plF0Xl1EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2plF0nl1EeSAAeaFv3K_FQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dsH40HlsEeSAAeaFv3K_FQ" name="Abbonamento">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_18um4Hl1EeSAAeaFv3K_FQ" name="tratta" type="_Vhy7sHlsEeSAAeaFv3K_FQ" association="_18um43l1EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18um4Xl1EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18um4nl1EeSAAeaFv3K_FQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_To_xkHltEeSAAeaFv3K_FQ" name="Corsa">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qp75cHl0EeSAAeaFv3K_FQ" name="sensore" type="_9tam4HlzEeSAAeaFv3K_FQ" association="_qp75c3l0EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qp75cXl0EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qp75cnl0EeSAAeaFv3K_FQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8TJ3E3ltEeSAAeaFv3K_FQ" memberEnd="_8TJ3FHltEeSAAeaFv3K_FQ _8TJ3EHltEeSAAeaFv3K_FQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8TJ3FHltEeSAAeaFv3K_FQ" name="corsa" type="_To_xkHltEeSAAeaFv3K_FQ" association="_8TJ3E3ltEeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8TJ3FXltEeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8TJ3FnltEeSAAeaFv3K_FQ" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8TJ3EHltEeSAAeaFv3K_FQ" name="tratta" type="_Vhy7sHlsEeSAAeaFv3K_FQ" association="_8TJ3E3ltEeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8TJ3EXltEeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8TJ3EnltEeSAAeaFv3K_FQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jMPDsHlyEeSAAeaFv3K_FQ" name="Notifica"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9tam4HlzEeSAAeaFv3K_FQ" name="Sensore"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qp75c3l0EeSAAeaFv3K_FQ" memberEnd="_qp75dHl0EeSAAeaFv3K_FQ _qp75cHl0EeSAAeaFv3K_FQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qp75dHl0EeSAAeaFv3K_FQ" name="corsa" type="_To_xkHltEeSAAeaFv3K_FQ" association="_qp75c3l0EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qp75dXl0EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qp75dnl0EeSAAeaFv3K_FQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1xjHE3l0EeSAAeaFv3K_FQ" memberEnd="_1xjHFHl0EeSAAeaFv3K_FQ _1xjHEHl0EeSAAeaFv3K_FQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1xjHFHl0EeSAAeaFv3K_FQ" name="amministratore" type="_zp6bQHlrEeSAAeaFv3K_FQ" association="_1xjHE3l0EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1xjHFXl0EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1xjHFnl0EeSAAeaFv3K_FQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_tl9wQHl1EeSAAeaFv3K_FQ" name="TrattaUrbana">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0vYqAHl1EeSAAeaFv3K_FQ" general="_Vhy7sHlsEeSAAeaFv3K_FQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uHphAHl1EeSAAeaFv3K_FQ" name="TrattaExtraUrbana">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0Hrw0Hl1EeSAAeaFv3K_FQ" general="_Vhy7sHlsEeSAAeaFv3K_FQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_18um43l1EeSAAeaFv3K_FQ" memberEnd="_18um5Hl1EeSAAeaFv3K_FQ _18um4Hl1EeSAAeaFv3K_FQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_18um5Hl1EeSAAeaFv3K_FQ" name="abbonamento" type="_dsH40HlsEeSAAeaFv3K_FQ" association="_18um43l1EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_18um5Xl1EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_18um5nl1EeSAAeaFv3K_FQ" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2plF03l1EeSAAeaFv3K_FQ" memberEnd="_2plF1Hl1EeSAAeaFv3K_FQ _2plF0Hl1EeSAAeaFv3K_FQ">
+    <name xsi:nil="true"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2plF1Hl1EeSAAeaFv3K_FQ" name="biglietto" type="_cJxVQHlsEeSAAeaFv3K_FQ" association="_2plF03l1EeSAAeaFv3K_FQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2plF1Xl1EeSAAeaFv3K_FQ" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2plF1nl1EeSAAeaFv3K_FQ" value="1"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
