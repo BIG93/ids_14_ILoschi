@@ -201,4 +201,16 @@ sicurezza dei metodi di pagamento</body>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mf6t5nllEeSAAeaFv3K_FQ" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_spFkMHloEeSAAeaFv3K_FQ" name="Utente">
+    <generalization xmi:type="uml:Generalization" xmi:id="_UeGKYHlpEeSAAeaFv3K_FQ" general="_FgEr4HlpEeSAAeaFv3K_FQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_uq_KgHloEeSAAeaFv3K_FQ" name="Amministratore">
+    <generalization xmi:type="uml:Generalization" xmi:id="_TGKuIHlpEeSAAeaFv3K_FQ" general="_FgEr4HlpEeSAAeaFv3K_FQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_wYP9kHloEeSAAeaFv3K_FQ" name="Controllore">
+    <generalization xmi:type="uml:Generalization" xmi:id="_SgenIHlpEeSAAeaFv3K_FQ" general="_FgEr4HlpEeSAAeaFv3K_FQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FgEr4HlpEeSAAeaFv3K_FQ" name="Persona">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_p5qUEHlpEeSAAeaFv3K_FQ" name="Nome"/>
+  </packagedElement>
 </uml:Model>
