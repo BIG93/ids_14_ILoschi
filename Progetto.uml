@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g">
   <uml:Model xmi:id="_29eM0HliEeSAAeaFv3K_FQ" name="model">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_Xz9bQHyQEeSOavPy0sQa6w">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_dE2GEHyQEeSOavPy0sQa6w">
+        <body>&lt;&lt;crea>></body>
+      </ownedComment>
+      <body>Tecnicamente annotare il tipo di dipendenza con un commento è sbagliato.&#xD;
+Però:&#xD;
+&#xD;
+&lt;&lt;crea>></body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_tG5GAHyTEeSOavPy0sQa6w">
+      <body>va bene la dipendenza generale ma per &quot;&lt;&lt;use>>&quot; si può utilizzare il collegamento &quot;Usage&quot;.</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:Actor" xmi:id="_KiV6oHljEeSAAeaFv3K_FQ" name="Utente"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_RXgboHljEeSAAeaFv3K_FQ" name="SmartBus" useCase="_V_3G0HljEeSAAeaFv3K_FQ _bnjIEHljEeSAAeaFv3K_FQ _fXNQsHljEeSAAeaFv3K_FQ _j-chkHljEeSAAeaFv3K_FQ _oMnLIHljEeSAAeaFv3K_FQ _uVkGYHljEeSAAeaFv3K_FQ _zwqdIHljEeSAAeaFv3K_FQ _A34yEHlkEeSAAeaFv3K_FQ _Fl-44HlkEeSAAeaFv3K_FQ _onf64HlkEeSAAeaFv3K_FQ">
       <ownedComment xmi:type="uml:Comment" xmi:id="_JgzvsHlkEeSAAeaFv3K_FQ">
@@ -434,9 +446,9 @@ sicurezza dei metodi di pagamento</body>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xd575nvKEeS-BuerrUoniQ" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_TSEEwHyNEeSOavPy0sQa6w" name="usa (valida)" client="_188N0HlrEeSAAeaFv3K_FQ" supplier="_91YagHr8EeSnbvyHjG0_rA"/>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_E_YXYHyPEeSOavPy0sQa6w" name="crea" client="_zp6bQHlrEeSAAeaFv3K_FQ" supplier="_188N0HlrEeSAAeaFv3K_FQ"/>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_MIM0MHyPEeSOavPy0sQa6w" name="usa" client="_3G4RYHlrEeSAAeaFv3K_FQ" supplier="_jMPDsHlyEeSAAeaFv3K_FQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_yJnOcHySEeSOavPy0sQa6w" client="_3G4RYHlrEeSAAeaFv3K_FQ" supplier="_jMPDsHlyEeSAAeaFv3K_FQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_XO6GEHyTEeSOavPy0sQa6w" client="_188N0HlrEeSAAeaFv3K_FQ" supplier="_91YagHr8EeSnbvyHjG0_rA"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pXVaMHvGEeS-BuerrUoniQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pfZKAHvGEeS-BuerrUoniQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
