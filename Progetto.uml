@@ -398,16 +398,6 @@ sicurezza dei metodi di pagamento</body>
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_HgGMU3r9EeSnbvyHjG0_rA" name="valida" memberEnd="_HgGMVHr9EeSnbvyHjG0_rA _HgGMUHr9EeSnbvyHjG0_rA" navigableOwnedEnd="_HgGMUHr9EeSnbvyHjG0_rA">
-      <ownedEnd xmi:type="uml:Property" xmi:id="_HgGMUHr9EeSnbvyHjG0_rA" name="titoloDiViaggio" type="_91YagHr8EeSnbvyHjG0_rA" association="_HgGMU3r9EeSnbvyHjG0_rA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HgGMUXr9EeSnbvyHjG0_rA" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HgGMUnr9EeSnbvyHjG0_rA" value="*"/>
-      </ownedEnd>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_HgGMVHr9EeSnbvyHjG0_rA" name="controllore" type="_188N0HlrEeSAAeaFv3K_FQ" association="_HgGMU3r9EeSnbvyHjG0_rA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HgGMVXr9EeSnbvyHjG0_rA" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HgGMVnr9EeSnbvyHjG0_rA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_xLpWA3sAEeSnbvyHjG0_rA" name="copre" memberEnd="_xLpWBHsAEeSnbvyHjG0_rA _xLpWAHsAEeSnbvyHjG0_rA" navigableOwnedEnd="_xLpWAHsAEeSnbvyHjG0_rA">
       <ownedEnd xmi:type="uml:Property" xmi:id="_xLpWBHsAEeSnbvyHjG0_rA" name="titoloDiViaggio" type="_91YagHr8EeSnbvyHjG0_rA" association="_xLpWA3sAEeSnbvyHjG0_rA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xLpWBXsAEeSnbvyHjG0_rA" value="1"/>
@@ -444,6 +434,9 @@ sicurezza dei metodi di pagamento</body>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xd575nvKEeS-BuerrUoniQ" value="1"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_TSEEwHyNEeSOavPy0sQa6w" name="usa (valida)" client="_188N0HlrEeSAAeaFv3K_FQ" supplier="_91YagHr8EeSnbvyHjG0_rA"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_E_YXYHyPEeSOavPy0sQa6w" name="crea" client="_zp6bQHlrEeSAAeaFv3K_FQ" supplier="_188N0HlrEeSAAeaFv3K_FQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_MIM0MHyPEeSOavPy0sQa6w" name="usa" client="_3G4RYHlrEeSAAeaFv3K_FQ" supplier="_jMPDsHlyEeSAAeaFv3K_FQ"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_pXVaMHvGEeS-BuerrUoniQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pfZKAHvGEeS-BuerrUoniQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
