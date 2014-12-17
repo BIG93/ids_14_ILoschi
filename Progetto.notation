@@ -247,7 +247,7 @@
           <children xmi:type="notation:DecorationNode" xmi:id="_JhUtE3lkEeSAAeaFv3K_FQ" type="5027"/>
           <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_JhUtEXlkEeSAAeaFv3K_FQ"/>
           <element xmi:type="uml:Comment" href="Progetto.uml#_JgzvsHlkEeSAAeaFv3K_FQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JhUtEnlkEeSAAeaFv3K_FQ" x="265" y="246" width="142" height="67"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JhUtEnlkEeSAAeaFv3K_FQ" x="199" y="254" width="142" height="67"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_onpr4HlkEeSAAeaFv3K_FQ" type="3009">
           <children xmi:type="notation:DecorationNode" xmi:id="_onpr4nlkEeSAAeaFv3K_FQ" type="5018"/>
