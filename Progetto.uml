@@ -1143,6 +1143,14 @@ sicurezza dei metodi di pagamento</body>
     <message xmi:type="uml:Message" xmi:id="_5-iRoIqbEeSBmtstobG6FA" name="LoginCompletato" messageSort="reply" receiveEvent="_5-iRooqbEeSBmtstobG6FA" sendEvent="_5-iRoYqbEeSBmtstobG6FA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_88EkUIqcEeSBmtstobG6FA" name="seqRegistrazione">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_X_DNAIqeEeSKq9tR6Mxu8g">
+      <body> L'utente seleziona &quot;Crea nuovo Account&quot;&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_YSkl8IqeEeSKq9tR6Mxu8g">
+      <body> Il sistema crea il nuovo account utente&#xD;
+</body>
+    </ownedComment>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_CIrzIYqdEeSBmtstobG6FA" name="" type="_rYrcw4eAEeSIP9QUrJ6RSQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Djb54YqdEeSBmtstobG6FA" name="" type="_JIEugIqaEeSBmtstobG6FA"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_CIrzIIqdEeSBmtstobG6FA" name="" represents="_CIrzIYqdEeSBmtstobG6FA" coveredBy="_ESYDgYqdEeSBmtstobG6FA _JYu5UYqdEeSBmtstobG6FA _ULAJEoqdEeSBmtstobG6FA _gECzoIqdEeSBmtstobG6FA _gECzoYqdEeSBmtstobG6FA"/>
@@ -1150,6 +1158,8 @@ sicurezza dei metodi di pagamento</body>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_Zk4X0IqdEeSBmtstobG6FA" name="NuovoUtente" coveredBy="_ZlBhwoqdEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_gECzoIqdEeSBmtstobG6FA" name="CombinedFragment" covered="_CIrzIIqdEeSBmtstobG6FA _Djb54IqdEeSBmtstobG6FA" interactionOperator="loop">
       <operand xmi:type="uml:InteractionOperand" xmi:id="_gECzoYqdEeSBmtstobG6FA" name="InteractionOperand" covered="_CIrzIIqdEeSBmtstobG6FA _Djb54IqdEeSBmtstobG6FA">
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JYu5UYqdEeSBmtstobG6FA" name="CreaNuovoAccountUtente_MessageSend" covered="_CIrzIIqdEeSBmtstobG6FA" message="_JYu5UIqdEeSBmtstobG6FA"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JYu5UoqdEeSBmtstobG6FA" name="CreaNuovoAccountUtente_MessageRecv" covered="_Djb54IqdEeSBmtstobG6FA" message="_JYu5UIqdEeSBmtstobG6FA"/>
         <guard xmi:type="uml:InteractionConstraint" xmi:id="_gECzooqdEeSBmtstobG6FA">
           <specification xmi:type="uml:LiteralString" xmi:id="_gECzo4qdEeSBmtstobG6FA" value="Fintantochè le informazioni non sono valide"/>
           <maxint xmi:type="uml:LiteralInteger" xmi:id="_gECzpYqdEeSBmtstobG6FA" value="1"/>
@@ -1157,15 +1167,13 @@ sicurezza dei metodi di pagamento</body>
         </guard>
       </operand>
     </fragment>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JYu5UYqdEeSBmtstobG6FA" name="CreaNuovoAccountUtente_MessageSend" covered="_CIrzIIqdEeSBmtstobG6FA" message="_JYu5UIqdEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_ESYDgYqdEeSBmtstobG6FA" name="ActionExecSpec" covered="_CIrzIIqdEeSBmtstobG6FA" finish="_ULAJEoqdEeSBmtstobG6FA" start="_JYu5UYqdEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_Evlj8YqdEeSBmtstobG6FA" name="BehaviorExecSpec" covered="_Djb54IqdEeSBmtstobG6FA" finish="_Evlj8oqdEeSBmtstobG6FA" start="_JYu5UoqdEeSBmtstobG6FA"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_JYu5UoqdEeSBmtstobG6FA" name="CreaNuovoAccountUtente_MessageRecv" covered="_Djb54IqdEeSBmtstobG6FA" message="_JYu5UIqdEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZlBhwYqdEeSBmtstobG6FA" name="MessageSend0" covered="_Djb54IqdEeSBmtstobG6FA" message="_ZlBhwIqdEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZlBhwoqdEeSBmtstobG6FA" name="MessageRecv0" covered="_Zk4X0IqdEeSBmtstobG6FA" message="_ZlBhwIqdEeSBmtstobG6FA"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ULAJEoqdEeSBmtstobG6FA" name="MessageRecv" covered="_CIrzIIqdEeSBmtstobG6FA" message="_ULAJEIqdEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ULAJEYqdEeSBmtstobG6FA" name="MessageSend" covered="_Djb54IqdEeSBmtstobG6FA" message="_ULAJEIqdEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Evlj8oqdEeSBmtstobG6FA" name="BehaviorExecSpecFinish" covered="_Djb54IqdEeSBmtstobG6FA" execution="_Evlj8YqdEeSBmtstobG6FA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ULAJEoqdEeSBmtstobG6FA" name="MessageRecv" covered="_CIrzIIqdEeSBmtstobG6FA" message="_ULAJEIqdEeSBmtstobG6FA"/>
     <message xmi:type="uml:Message" xmi:id="_JYu5UIqdEeSBmtstobG6FA" name="CreaNuovoAccountUtente_Message" receiveEvent="_JYu5UoqdEeSBmtstobG6FA" sendEvent="_JYu5UYqdEeSBmtstobG6FA" signature="_JYb-YIqdEeSBmtstobG6FA"/>
     <message xmi:type="uml:Message" xmi:id="_ULAJEIqdEeSBmtstobG6FA" name="AccountCreato" messageSort="reply" receiveEvent="_ULAJEoqdEeSBmtstobG6FA" sendEvent="_ULAJEYqdEeSBmtstobG6FA"/>
     <message xmi:type="uml:Message" xmi:id="_ZlBhwIqdEeSBmtstobG6FA" name="Message" messageSort="createMessage" receiveEvent="_ZlBhwoqdEeSBmtstobG6FA" sendEvent="_ZlBhwYqdEeSBmtstobG6FA"/>
