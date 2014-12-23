@@ -1068,13 +1068,12 @@ sicurezza dei metodi di pagamento</body>
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8ijDgIq8EeSnscOUdrdOsg" name="selezionaMetodoPagamento"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_4SoaYIgzEeST08QPbeZpTg" name="Geolocalizzazione">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_jpSiYIg0EeST08QPbeZpTg" name="geolocalizzaUtente"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_NYIS0IhHEeST08QPbeZpTg" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_2f4qYIgzEeST08QPbeZpTg"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_SWRAwIhHEeST08QPbeZpTg" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_EieEVIeEEeSIP9QUrJ6RSQ"/>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_YM9HUIhHEeST08QPbeZpTg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_4SoaYIgzEeST08QPbeZpTg"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_goRGwIhHEeST08QPbeZpTg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_Ein1aIeEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_nJPrAIhIEeST08QPbeZpTg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_EieEe4eEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_C6MCYIhJEeST08QPbeZpTg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_Ein1UIeEEeSIP9QUrJ6RSQ"/>
@@ -1110,7 +1109,14 @@ sicurezza dei metodi di pagamento</body>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_oBdcoIkdEeSuO9MkpaY3xQ" client="_f8cdUIkdEeSuO9MkpaY3xQ" supplier="_YXjvkIkdEeSuO9MkpaY3xQ"/>
   <packagedElement xmi:type="uml:Signal" xmi:id="_LMg_sIkfEeSuO9MkpaY3xQ" name="InvioDati"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Ip0sQIqaEeSBmtstobG6FA" name="GestoreAccount">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_wnnlkIqbEeSBmtstobG6FA" name="Login"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wnnlkIqbEeSBmtstobG6FA" name="Login">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8t0KQIq6EeSnscOUdrdOsg" name="nomeUtente">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-PMdcIq6EeSnscOUdrdOsg" name="password">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_JIEugIqaEeSBmtstobG6FA" name="GestoreRegistrazioni">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_JYb-YIqdEeSBmtstobG6FA" name="controllaInformazioniUtente">
@@ -1134,10 +1140,17 @@ sicurezza dei metodi di pagamento</body>
   <packagedElement xmi:type="uml:Usage" xmi:id="_ghkkgIqaEeSBmtstobG6FA" client="_lHv38IeFEeSIP9QUrJ6RSQ" supplier="_Ip0sQIqaEeSBmtstobG6FA"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_2sP28IqaEeSBmtstobG6FA" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_JIEugIqaEeSBmtstobG6FA"/>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_-OL-YIqaEeSBmtstobG6FA" name="seqLogin">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_Cp_00Iq7EeSnscOUdrdOsg">
+      <body>il sistema chiede all'utente di inserire nome utente e password fintantoche le informazioni inserite non sono valide&#xD;
+</body>
+    </ownedComment>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GTjjAYqbEeSBmtstobG6FA" name="" type="_HjzOsIeBEeSIP9QUrJ6RSQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_KKyTQYqbEeSBmtstobG6FA" name="" type="_Ip0sQIqaEeSBmtstobG6FA"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_GTjjAIqbEeSBmtstobG6FA" name="" represents="_GTjjAYqbEeSBmtstobG6FA" coveredBy="_MCvTYYqbEeSBmtstobG6FA _lw4skYqbEeSBmtstobG6FA _wn6ggYqbEeSBmtstobG6FA _5-iRooqbEeSBmtstobG6FA _P0MWUIqcEeSBmtstobG6FA _P0MWUYqcEeSBmtstobG6FA"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_KKyTQIqbEeSBmtstobG6FA" name="" represents="_KKyTQYqbEeSBmtstobG6FA" coveredBy="_MmW90YqbEeSBmtstobG6FA _lw4skoqbEeSBmtstobG6FA _wn6ggoqbEeSBmtstobG6FA _5-iRoYqbEeSBmtstobG6FA _P0MWUIqcEeSBmtstobG6FA _P0MWUYqcEeSBmtstobG6FA"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_MmW90YqbEeSBmtstobG6FA" name="BehaviorExecSpec" covered="_KKyTQIqbEeSBmtstobG6FA" finish="_5-iRoYqbEeSBmtstobG6FA" start="_lw4skoqbEeSBmtstobG6FA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5-iRooqbEeSBmtstobG6FA" name="MessageRecv" covered="_GTjjAIqbEeSBmtstobG6FA" message="_5-iRoIqbEeSBmtstobG6FA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lw4skYqbEeSBmtstobG6FA" name="Login(nome,password)_MessageSend" covered="_GTjjAIqbEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:CombinedFragment" xmi:id="_P0MWUIqcEeSBmtstobG6FA" name="CombinedFragment" covered="_KKyTQIqbEeSBmtstobG6FA _GTjjAIqbEeSBmtstobG6FA" interactionOperator="loop">
       <operand xmi:type="uml:InteractionOperand" xmi:id="_P0MWUYqcEeSBmtstobG6FA" name="InteractionOperand" covered="_KKyTQIqbEeSBmtstobG6FA _GTjjAIqbEeSBmtstobG6FA">
         <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wn6ggoqbEeSBmtstobG6FA" name="Login_MessageRecv" covered="_KKyTQIqbEeSBmtstobG6FA" message="_wn6ggIqbEeSBmtstobG6FA"/>
@@ -1149,12 +1162,9 @@ sicurezza dei metodi di pagamento</body>
         </guard>
       </operand>
     </fragment>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lw4skYqbEeSBmtstobG6FA" name="Login(nome,password)_MessageSend" covered="_GTjjAIqbEeSBmtstobG6FA"/>
-    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_MmW90YqbEeSBmtstobG6FA" name="BehaviorExecSpec" covered="_KKyTQIqbEeSBmtstobG6FA" finish="_5-iRoYqbEeSBmtstobG6FA" start="_lw4skoqbEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wn6ggYqbEeSBmtstobG6FA" name="Login_MessageSend" covered="_GTjjAIqbEeSBmtstobG6FA" message="_wn6ggIqbEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_MCvTYYqbEeSBmtstobG6FA" name="ActionExecSpec" covered="_GTjjAIqbEeSBmtstobG6FA" finish="_5-iRooqbEeSBmtstobG6FA" start="_lw4skYqbEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5-iRoYqbEeSBmtstobG6FA" name="MessageSend" covered="_KKyTQIqbEeSBmtstobG6FA" message="_5-iRoIqbEeSBmtstobG6FA"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5-iRooqbEeSBmtstobG6FA" name="MessageRecv" covered="_GTjjAIqbEeSBmtstobG6FA" message="_5-iRoIqbEeSBmtstobG6FA"/>
     <message xmi:type="uml:Message" xmi:id="_wn6ggIqbEeSBmtstobG6FA" name="Login_Message" receiveEvent="_wn6ggoqbEeSBmtstobG6FA" sendEvent="_wn6ggYqbEeSBmtstobG6FA" signature="_wnnlkIqbEeSBmtstobG6FA"/>
     <message xmi:type="uml:Message" xmi:id="_5-iRoIqbEeSBmtstobG6FA" name="LoginCompletato" messageSort="reply" receiveEvent="_5-iRooqbEeSBmtstobG6FA" sendEvent="_5-iRoYqbEeSBmtstobG6FA"/>
   </packagedElement>
@@ -1389,8 +1399,29 @@ sicurezza dei metodi di pagamento</body>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_4k3G8IqxEeSXVoWogbyQvQ" name="Pagamento">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Yzo7kYqyEeSXVoWogbyQvQ" name="" type="_rYrcw4eAEeSIP9QUrJ6RSQ"/>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_aCZNsYqyEeSXVoWogbyQvQ" name="" type="_2f4qYIgzEeST08QPbeZpTg"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_Yzo7kIqyEeSXVoWogbyQvQ" name="" represents="_Yzo7kYqyEeSXVoWogbyQvQ"/>
-    <lifeline xmi:type="uml:Lifeline" xmi:id="_aCZNsIqyEeSXVoWogbyQvQ" name="" represents="_aCZNsYqyEeSXVoWogbyQvQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jqeMIYq7EeSnscOUdrdOsg" name="" type="_fozYYIq5EeSnscOUdrdOsg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PWC0MYq8EeSnscOUdrdOsg" name="" type="_2f4qYIgzEeST08QPbeZpTg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Yzo7kIqyEeSXVoWogbyQvQ" name="" represents="_Yzo7kYqyEeSXVoWogbyQvQ" coveredBy="_kG8NEoq4EeSnscOUdrdOsg _kG8NEYq4EeSnscOUdrdOsg _nxjdoYq4EeSnscOUdrdOsg _T_DmsYq8EeSnscOUdrdOsg _8jJgcYq8EeSnscOUdrdOsg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_jqeMIIq7EeSnscOUdrdOsg" name="" represents="_jqeMIYq7EeSnscOUdrdOsg" coveredBy="__54LsYq8EeSnscOUdrdOsg _CdDTEoq9EeSnscOUdrdOsg _FsS2QYq9EeSnscOUdrdOsg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_PWC0MIq8EeSnscOUdrdOsg" name="" represents="_PWC0MYq8EeSnscOUdrdOsg" coveredBy="_QLsCwoq8EeSnscOUdrdOsg _QLsCwYq8EeSnscOUdrdOsg _T_NXsIq8EeSnscOUdrdOsg _8jJgcoq8EeSnscOUdrdOsg _AMbUQYq9EeSnscOUdrdOsg _CdDTEYq9EeSnscOUdrdOsg _FsS2Qoq9EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8jJgcoq8EeSnscOUdrdOsg" name="selezionaMetodoPagamento_MessageRecv" covered="_PWC0MIq8EeSnscOUdrdOsg" message="_8jJgcIq8EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="__54LsYq8EeSnscOUdrdOsg" name="BehaviorExecSpec1" covered="_jqeMIIq7EeSnscOUdrdOsg" finish="_FsS2QYq9EeSnscOUdrdOsg" start="_CdDTEoq9EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CdDTEoq9EeSnscOUdrdOsg" name="riceviPagamento_MessageRecv" covered="_jqeMIIq7EeSnscOUdrdOsg" message="_CdDTEIq9EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T_DmsYq8EeSnscOUdrdOsg" name="paga_MessageSend" covered="_Yzo7kIqyEeSXVoWogbyQvQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nxjdoYq4EeSnscOUdrdOsg" name="MessageSend" covered="_Yzo7kIqyEeSXVoWogbyQvQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FsS2Qoq9EeSnscOUdrdOsg" name="MessageRecv" covered="_PWC0MIq8EeSnscOUdrdOsg" message="_FsS2QIq9EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_8jJgcYq8EeSnscOUdrdOsg" name="selezionaMetodoPagamento_MessageSend" covered="_Yzo7kIqyEeSXVoWogbyQvQ" message="_8jJgcIq8EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_kG8NEYq4EeSnscOUdrdOsg" name="ActionExecSpec" covered="_Yzo7kIqyEeSXVoWogbyQvQ" finish="_kG8NEoq4EeSnscOUdrdOsg" start="_nxjdoYq4EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_QLsCwYq8EeSnscOUdrdOsg" name="BehaviorExecSpec0" covered="_PWC0MIq8EeSnscOUdrdOsg" finish="_QLsCwoq8EeSnscOUdrdOsg" start="_T_NXsIq8EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CdDTEYq9EeSnscOUdrdOsg" name="riceviPagamento_MessageSend" covered="_PWC0MIq8EeSnscOUdrdOsg" message="_CdDTEIq9EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_AMbUQYq9EeSnscOUdrdOsg" name="ActionExecSpec0" covered="_PWC0MIq8EeSnscOUdrdOsg" finish="_FsS2Qoq9EeSnscOUdrdOsg" start="_CdDTEYq9EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_kG8NEoq4EeSnscOUdrdOsg" name="ActionExecSpecFinish" covered="_Yzo7kIqyEeSXVoWogbyQvQ" execution="_kG8NEYq4EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_FsS2QYq9EeSnscOUdrdOsg" name="MessageSend0" covered="_jqeMIIq7EeSnscOUdrdOsg" message="_FsS2QIq9EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_QLsCwoq8EeSnscOUdrdOsg" name="BehaviorExecSpec0Finish" covered="_PWC0MIq8EeSnscOUdrdOsg" execution="_QLsCwYq8EeSnscOUdrdOsg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T_NXsIq8EeSnscOUdrdOsg" name="paga_MessageRecv" covered="_PWC0MIq8EeSnscOUdrdOsg"/>
+    <message xmi:type="uml:Message" xmi:id="_8jJgcIq8EeSnscOUdrdOsg" name="selezionaMetodoPagamento_Message" receiveEvent="_8jJgcoq8EeSnscOUdrdOsg" sendEvent="_8jJgcYq8EeSnscOUdrdOsg" signature="_8ijDgIq8EeSnscOUdrdOsg"/>
+    <message xmi:type="uml:Message" xmi:id="_CdDTEIq9EeSnscOUdrdOsg" name="riceviPagamento_Message" receiveEvent="_CdDTEoq9EeSnscOUdrdOsg" sendEvent="_CdDTEYq9EeSnscOUdrdOsg" signature="_Ccc2IIq9EeSnscOUdrdOsg"/>
+    <message xmi:type="uml:Message" xmi:id="_FsS2QIq9EeSnscOUdrdOsg" name="oggettoPagato" messageSort="reply" receiveEvent="_FsS2Qoq9EeSnscOUdrdOsg" sendEvent="_FsS2QYq9EeSnscOUdrdOsg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_5vKkoIq2EeSXVoWogbyQvQ" name="Interaction2">
     <ownedComment xmi:type="uml:Comment" xmi:id="_W1Z7AIq3EeSXVoWogbyQvQ">
@@ -1430,4 +1461,10 @@ sicurezza dei metodi di pagamento</body>
     <message xmi:type="uml:Message" xmi:id="_RwnLcIq3EeSXVoWogbyQvQ" name="informazioniValide" messageSort="reply" receiveEvent="_RwnLcoq3EeSXVoWogbyQvQ" sendEvent="_RwnLcYq3EeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_k9bloIq3EeSXVoWogbyQvQ" name="create_Message" receiveEvent="_k9kvkYq3EeSXVoWogbyQvQ" sendEvent="_k9kvkIq3EeSXVoWogbyQvQ" signature="_EieEjYeEEeSIP9QUrJ6RSQ"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_fozYYIq5EeSnscOUdrdOsg" name="GestorePagamenti">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ccc2IIq9EeSnscOUdrdOsg" name="riceviPagamento"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_DTqncIq8EeSnscOUdrdOsg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_fozYYIq5EeSnscOUdrdOsg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_G1w1MIq8EeSnscOUdrdOsg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_4SoaYIgzEeST08QPbeZpTg"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_KA3fQIq8EeSnscOUdrdOsg" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_2f4qYIgzEeST08QPbeZpTg"/>
 </uml:Model>
