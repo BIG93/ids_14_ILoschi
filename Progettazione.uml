@@ -305,7 +305,7 @@ in modo asincrono</body>
       <message xmi:type="uml:Message" xmi:id="_qCMKEIYDEeSFa_xp01C-sQ" name="visualizzaConfort()" receiveEvent="_qCMKEoYDEeSFa_xp01C-sQ" sendEvent="_qCMKEYYDEeSFa_xp01C-sQ"/>
       <message xmi:type="uml:Message" xmi:id="_v1e-YIYDEeSFa_xp01C-sQ" name="mostraConfort()" messageSort="reply" receiveEvent="_v1e-YoYDEeSFa_xp01C-sQ" sendEvent="_v1e-YYYDEeSFa_xp01C-sQ"/>
       <message xmi:type="uml:Message" xmi:id="_397W0IkREeSuO9MkpaY3xQ" name="VisualizzaNotifiche_Message" messageSort="asynchCall" receiveEvent="_3-Fu4IkREeSuO9MkpaY3xQ" sendEvent="_3-CrkIkREeSuO9MkpaY3xQ" signature="_37fG0IkREeSuO9MkpaY3xQ"/>
-      <message xmi:type="uml:Message" xmi:id="_83S5gIkREeSuO9MkpaY3xQ" name="geolocalizzaUtente_Message" receiveEvent="_83cqgIkREeSuO9MkpaY3xQ" sendEvent="_83S5gYkREeSuO9MkpaY3xQ" signature="_jpSiYIg0EeST08QPbeZpTg"/>
+      <message xmi:type="uml:Message" xmi:id="_83S5gIkREeSuO9MkpaY3xQ" name="geolocalizzaUtente_Message" receiveEvent="_83cqgIkREeSuO9MkpaY3xQ" sendEvent="_83S5gYkREeSuO9MkpaY3xQ"/>
       <message xmi:type="uml:Message" xmi:id="_FavhQIkSEeSuO9MkpaY3xQ" name="Posizione_Message" messageSort="reply" receiveEvent="_Fa7HcIkSEeSuO9MkpaY3xQ" sendEvent="_Fa2O8IkSEeSuO9MkpaY3xQ"/>
       <message xmi:type="uml:Message" xmi:id="_HNQgYIkVEeSuO9MkpaY3xQ" name="Message0" messageSort="reply" receiveEvent="_HNV_8IkVEeSuO9MkpaY3xQ"/>
       <message xmi:type="uml:Message" xmi:id="_T1aeQIkWEeSuO9MkpaY3xQ" name="MostraNotifiche_Message" messageSort="reply" signature="_Ty9AIIkWEeSuO9MkpaY3xQ"/>
@@ -323,8 +323,8 @@ in modo asincrono</body>
       <message xmi:type="uml:Message" xmi:id="_QxcsAIncEeSxwtAEF1jGIw" name="Message6" sendEvent="_QxfIQIncEeSxwtAEF1jGIw"/>
       <message xmi:type="uml:Message" xmi:id="_gJDvMIncEeSxwtAEF1jGIw" name="scegliCitta" receiveEvent="_gJInsIncEeSxwtAEF1jGIw" sendEvent="_gJGLcIncEeSxwtAEF1jGIw"/>
       <message xmi:type="uml:Message" xmi:id="_j1xRgIncEeSxwtAEF1jGIw" name="Message7" messageSort="reply" receiveEvent="_j1ztwYncEeSxwtAEF1jGIw" sendEvent="_j1ztwIncEeSxwtAEF1jGIw"/>
-      <message xmi:type="uml:Message" xmi:id="_ae3-oJJjEeSW4Nqh-1C4JQ" name="crea_Message" receiveEvent="_ae3-opJjEeSW4Nqh-1C4JQ" sendEvent="_ae3-oZJjEeSW4Nqh-1C4JQ" signature="_5HjiQIkaEeSuO9MkpaY3xQ"/>
-      <message xmi:type="uml:Message" xmi:id="_1Ku9QJJjEeSW4Nqh-1C4JQ" name="pubblicaNotifica_Message" receiveEvent="_1Ku9QpJjEeSW4Nqh-1C4JQ" sendEvent="_1Ku9QZJjEeSW4Nqh-1C4JQ" signature="_1KJHYJJjEeSW4Nqh-1C4JQ"/>
+      <message xmi:type="uml:Message" xmi:id="_ae3-oJJjEeSW4Nqh-1C4JQ" name="crea_Message" receiveEvent="_ae3-opJjEeSW4Nqh-1C4JQ" sendEvent="_ae3-oZJjEeSW4Nqh-1C4JQ"/>
+      <message xmi:type="uml:Message" xmi:id="_1Ku9QJJjEeSW4Nqh-1C4JQ" name="pubblicaNotifica_Message" receiveEvent="_1Ku9QpJjEeSW4Nqh-1C4JQ" sendEvent="_1Ku9QZJjEeSW4Nqh-1C4JQ"/>
       <message xmi:type="uml:Message" xmi:id="_37UOgJJjEeSW4Nqh-1C4JQ" name="notificaPubblicata" messageSort="reply" receiveEvent="_37dYcZJjEeSW4Nqh-1C4JQ" sendEvent="_37dYcJJjEeSW4Nqh-1C4JQ"/>
     </ownedBehavior>
     <edge xmi:type="uml:ControlFlow" xmi:id="_PrPWAHcREeSY-OBEwpsn5g" target="_PrIoUHcREeSY-OBEwpsn5g" source="_OLurEHcREeSY-OBEwpsn5g"/>
@@ -720,8 +720,8 @@ sicurezza dei metodi di pagamento</body>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_EieEVoeEEeSIP9QUrJ6RSQ" name="testo">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_5HjiQIkaEeSuO9MkpaY3xQ" name="create">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_O_nQkJJkEeSW4Nqh-1C4JQ" name="testo">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VHdYgMGLEeShnMC9Rz-ImA" name="create">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZCXSYMGMEeShnMC9Rz-ImA" name="testo">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
@@ -756,7 +756,7 @@ sicurezza dei metodi di pagamento</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EieEfoeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EieEf4eEEeSIP9QUrJ6RSQ" value="*"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_EieEgIeEEeSIP9QUrJ6RSQ" name="create">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_EieEgIeEEeSIP9QUrJ6RSQ" name="create" isStatic="true">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_EieEgYeEEeSIP9QUrJ6RSQ" name="idTratta">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
@@ -792,7 +792,7 @@ sicurezza dei metodi di pagamento</body>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GT70IIhDEeST08QPbeZpTg" name="tipoAbbonamento">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ein1VIeEEeSIP9QUrJ6RSQ" name="create">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ein1VIeEEeSIP9QUrJ6RSQ" name="create" isStatic="true">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_Ein1VYeEEeSIP9QUrJ6RSQ" name="nome">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
@@ -830,7 +830,7 @@ sicurezza dei metodi di pagamento</body>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Ein1aIeEEeSIP9QUrJ6RSQ" name="Biglietto">
     <generalization xmi:type="uml:Generalization" xmi:id="_Ein1aYeEEeSIP9QUrJ6RSQ" general="_Ein1dYeEEeSIP9QUrJ6RSQ"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_4OGscIhDEeST08QPbeZpTg" name="create">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_4OGscIhDEeST08QPbeZpTg" name="create" isStatic="true">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_BIKdYIhEEeST08QPbeZpTg" name="tipoBiglietto">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
@@ -853,12 +853,18 @@ sicurezza dei metodi di pagamento</body>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Ein1dYeEEeSIP9QUrJ6RSQ" name="TitoloDiViaggio">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ein1eYeEEeSIP9QUrJ6RSQ" name="idTitolo">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ein1eYeEEeSIP9QUrJ6RSQ" name="idTitolo" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_holUYJpHEeSmbM8qDRdiuA" name="create" isAbstract="true"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Xf-LMMGPEeShnMC9Rz-ImA" name="costo">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_holUYJpHEeSmbM8qDRdiuA" name="create" isStatic="true" isAbstract="true"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_cTXtsIeEEeSIP9QUrJ6RSQ" name="Compagnia">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_28T2QMGPEeShnMC9Rz-ImA" name="ragioneSociale">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_duBkMIqtEeSXVoWogbyQvQ" name="ottieniCompagnia"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_u8p9AIeEEeSIP9QUrJ6RSQ" name="gestisce" memberEnd="_u8p9AYeEEeSIP9QUrJ6RSQ _u8gzEIeEEeSIP9QUrJ6RSQ" navigableOwnedEnd="_u8gzEIeEEeSIP9QUrJ6RSQ">
@@ -1043,10 +1049,10 @@ sicurezza dei metodi di pagamento</body>
     <message xmi:type="uml:Message" xmi:id="_goIl4IgxEeST08QPbeZpTg" name="Message" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_mcgYQIgxEeST08QPbeZpTg" name="geolocalizzaUtente()"/>
     <message xmi:type="uml:Message" xmi:id="_qNc6UIgxEeST08QPbeZpTg" name="Message0" messageSort="reply"/>
-    <message xmi:type="uml:Message" xmi:id="_PteUMIg0EeST08QPbeZpTg" name="acquista_Message" receiveEvent="_PteUMog0EeST08QPbeZpTg" sendEvent="_PteUMYg0EeST08QPbeZpTg" signature="_Ps_zEIg0EeST08QPbeZpTg"/>
+    <message xmi:type="uml:Message" xmi:id="_PteUMIg0EeST08QPbeZpTg" name="acquista_Message" receiveEvent="_PteUMog0EeST08QPbeZpTg" sendEvent="_PteUMYg0EeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_mHS14Ig0EeST08QPbeZpTg" name="posizione" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_910rQIg1EeST08QPbeZpTg" name="Message1" messageSort="reply" receiveEvent="_912gcIg1EeST08QPbeZpTg" sendEvent="_9115YIg1EeST08QPbeZpTg"/>
-    <message xmi:type="uml:Message" xmi:id="_EFFC0Ig2EeST08QPbeZpTg" name="geolocalizzaUtente_Message" receiveEvent="_EFG4AIg2EeST08QPbeZpTg" sendEvent="_EFGQ8Ig2EeST08QPbeZpTg" signature="_jpSiYIg0EeST08QPbeZpTg"/>
+    <message xmi:type="uml:Message" xmi:id="_EFFC0Ig2EeST08QPbeZpTg" name="geolocalizzaUtente_Message" receiveEvent="_EFG4AIg2EeST08QPbeZpTg" sendEvent="_EFGQ8Ig2EeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_FpmJkIg2EeST08QPbeZpTg" name="posizione" messageSort="reply" receiveEvent="_FpnXsIg2EeST08QPbeZpTg" sendEvent="_FpmwoIg2EeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_QBmfMIg2EeST08QPbeZpTg" name="selezionaCitta" receiveEvent="_QBoUYIg2EeST08QPbeZpTg" sendEvent="_QBnGQIg2EeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_VQzvAIg2EeST08QPbeZpTg" name="compagnieCitta" messageSort="reply" receiveEvent="_VQ2LQIg2EeST08QPbeZpTg" sendEvent="_VQ09IIg2EeST08QPbeZpTg"/>
@@ -1058,10 +1064,10 @@ sicurezza dei metodi di pagamento</body>
     <message xmi:type="uml:Message" xmi:id="_FkRggIg9EeST08QPbeZpTg" name="Message7" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_InOUIIg9EeST08QPbeZpTg" name="Message8" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_JpRnAIg9EeST08QPbeZpTg" name="Message9" messageSort="reply"/>
-    <message xmi:type="uml:Message" xmi:id="_fzPu0Ig9EeST08QPbeZpTg" name="acquistaBiglietto_Message" receiveEvent="_fzSLEIg9EeST08QPbeZpTg" sendEvent="_fzQ88Ig9EeST08QPbeZpTg" signature="_fyxNsIg9EeST08QPbeZpTg"/>
+    <message xmi:type="uml:Message" xmi:id="_fzPu0Ig9EeST08QPbeZpTg" name="acquistaBiglietto_Message" receiveEvent="_fzSLEIg9EeST08QPbeZpTg" sendEvent="_fzQ88Ig9EeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_OIlOcIg-EeST08QPbeZpTg" name="selezionaTratta_Message" receiveEvent="_OIsjMIg-EeST08QPbeZpTg" sendEvent="_OImckIg-EeST08QPbeZpTg" signature="__WN1EIg3EeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_ceIXsIg-EeST08QPbeZpTg" name="bigliettoTratta" messageSort="reply" receiveEvent="_ceKz8Ig-EeST08QPbeZpTg" sendEvent="_ceJl0Ig-EeST08QPbeZpTg"/>
-    <message xmi:type="uml:Message" xmi:id="_tEuEkIhAEeST08QPbeZpTg" name="acquistaAbbonamento_Message" receiveEvent="_j38WgIhBEeST08QPbeZpTg" sendEvent="_RstfsIhCEeST08QPbeZpTg" signature="_tEQKgIhAEeST08QPbeZpTg"/>
+    <message xmi:type="uml:Message" xmi:id="_tEuEkIhAEeST08QPbeZpTg" name="acquistaAbbonamento_Message" receiveEvent="_j38WgIhBEeST08QPbeZpTg" sendEvent="_RstfsIhCEeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_BgDq4IhCEeST08QPbeZpTg" name="create_Message" receiveEvent="_BgGHIIhCEeST08QPbeZpTg" sendEvent="_BgFgEIhCEeST08QPbeZpTg" signature="_Ein1VIeEEeSIP9QUrJ6RSQ"/>
     <message xmi:type="uml:Message" xmi:id="_dltuAIhCEeST08QPbeZpTg" name="abbonamentoCreato" messageSort="reply" receiveEvent="_dlwKQIhCEeST08QPbeZpTg" sendEvent="_dlu8IIhCEeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_1HYokIhCEeST08QPbeZpTg" name="Message10" messageSort="reply"/>
@@ -1069,39 +1075,39 @@ sicurezza dei metodi di pagamento</body>
     <message xmi:type="uml:Message" xmi:id="_F-prMIhEEeST08QPbeZpTg" name="bigliettoCreato" messageSort="reply" receiveEvent="_F-t8oIhEEeST08QPbeZpTg" sendEvent="_F-sugIhEEeST08QPbeZpTg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_2f4qYIgzEeST08QPbeZpTg" name="GestoreAcquisti">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ps_zEIg0EeST08QPbeZpTg" name="acquista"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_fyxNsIg9EeST08QPbeZpTg" name="acquistaBiglietto">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_HIhsEIg-EeST08QPbeZpTg" name="Tratta" type="_EieEe4eEEeSIP9QUrJ6RSQ"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lLRBEMGQEeShnMC9Rz-ImA" name="acquistaBiglietto">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uYN40MGQEeShnMC9Rz-ImA" name="Tratta" type="_EieEe4eEEeSIP9QUrJ6RSQ"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_tEQKgIhAEeST08QPbeZpTg" name="acquistaAbbonamento">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_5-FjsIhAEeST08QPbeZpTg" name="tipoAbbonamento" type="_Ein1UIeEEeSIP9QUrJ6RSQ"/>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OEHBUIhCEeST08QPbeZpTg" name="nome">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_zF5v8MGQEeShnMC9Rz-ImA" name="selezionaMetodoPagamento"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9z0rMMGQEeShnMC9Rz-ImA" name="acquistaAbbonamento">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_B8slEMGREeShnMC9Rz-ImA" name="nome">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_PQUVwIhCEeST08QPbeZpTg" name="cognome">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DwJfsMGREeShnMC9Rz-ImA" name="cognome">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Tv9LUMGREeShnMC9Rz-ImA" name="tratta" type="_EieEe4eEEeSIP9QUrJ6RSQ"/>
     </ownedOperation>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_8ijDgIq8EeSnscOUdrdOsg" name="selezionaMetodoPagamento"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_4SoaYIgzEeST08QPbeZpTg" name="Geolocalizzazione">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_jpSiYIg0EeST08QPbeZpTg" name="geolocalizzaUtente"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_8NOEUMGREeShnMC9Rz-ImA" name="geolocalizzaUtente"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Usage" xmi:id="_SWRAwIhHEeST08QPbeZpTg" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_EieEVIeEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_goRGwIhHEeST08QPbeZpTg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_Ein1aIeEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_nJPrAIhIEeST08QPbeZpTg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_EieEe4eEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_C6MCYIhJEeST08QPbeZpTg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_Ein1UIeEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_LqGyEIkIEeSuO9MkpaY3xQ" name="GestoreNotifiche">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_MOKHEIkYEeSuO9MkpaY3xQ" name="bacheca" type="_9aJgMIkXEeSuO9MkpaY3xQ" association="_MOSC4IkYEeSuO9MkpaY3xQ">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MOKHEYkYEeSuO9MkpaY3xQ"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MOKHEokYEeSuO9MkpaY3xQ" value="*"/>
-    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_OZ_XYIkWEeSuO9MkpaY3xQ" name="SelezionaCittà"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Ty9AIIkWEeSuO9MkpaY3xQ" name="MostraNotifiche"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_Y1m6UIkZEeSuO9MkpaY3xQ" name="NuovaNotifica"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_gc1KYIkZEeSuO9MkpaY3xQ" name="ScriviNotifica"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_MjAq0IkaEeSuO9MkpaY3xQ" name="InserisciNotifica"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_zMAUYIkbEeSuO9MkpaY3xQ" name="NotificaPubblicata"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WrPYEMGOEeShnMC9Rz-ImA" name="pubblicaNotifica">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bxsUgMGOEeShnMC9Rz-ImA" name="testo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_Ulrl8IkIEeSuO9MkpaY3xQ" client="_LqGyEIkIEeSuO9MkpaY3xQ" supplier="_EieEVIeEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_eq6JgIkIEeSuO9MkpaY3xQ" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_LqGyEIkIEeSuO9MkpaY3xQ"/>
@@ -1110,13 +1116,12 @@ sicurezza dei metodi di pagamento</body>
   <packagedElement xmi:type="uml:Signal" xmi:id="_qw_bcIkREeSuO9MkpaY3xQ" name="VisualizzaNotifiche()"/>
   <packagedElement xmi:type="uml:Signal" xmi:id="_37fG0IkREeSuO9MkpaY3xQ" name="VisualizzaNotifiche"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_9aJgMIkXEeSuO9MkpaY3xQ" name="Bacheca">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_1KJHYJJjEeSW4Nqh-1C4JQ" name="pubblicaNotifica"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_MOSC4IkYEeSuO9MkpaY3xQ" name="pubblica" memberEnd="_MOSC4YkYEeSuO9MkpaY3xQ _MOKHEIkYEeSuO9MkpaY3xQ">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_MOSC4YkYEeSuO9MkpaY3xQ" name="GestoreNotifiche" type="_LqGyEIkIEeSuO9MkpaY3xQ" association="_MOSC4IkYEeSuO9MkpaY3xQ">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MOSC4okYEeSuO9MkpaY3xQ" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MOSC44kYEeSuO9MkpaY3xQ" value="1"/>
-    </ownedEnd>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__FZvMMGNEeShnMC9Rz-ImA" name="bachecaNotifiche"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yiGxQMGOEeShnMC9Rz-ImA" name="aggiungiNotifica">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_3n2jEMGOEeShnMC9Rz-ImA" name="testo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Signal" xmi:id="_mze4gIkbEeSuO9MkpaY3xQ" name="pubblicaNotifica"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_YXjvkIkdEeSuO9MkpaY3xQ" name="Sensore"/>
@@ -1125,30 +1130,30 @@ sicurezza dei metodi di pagamento</body>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_oBdcoIkdEeSuO9MkpaY3xQ" client="_f8cdUIkdEeSuO9MkpaY3xQ" supplier="_YXjvkIkdEeSuO9MkpaY3xQ"/>
   <packagedElement xmi:type="uml:Signal" xmi:id="_LMg_sIkfEeSuO9MkpaY3xQ" name="InvioDati"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_Ip0sQIqaEeSBmtstobG6FA" name="GestoreAccount">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_wnnlkIqbEeSBmtstobG6FA" name="Login">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8t0KQIq6EeSnscOUdrdOsg" name="nomeUtente">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nykXUMGMEeShnMC9Rz-ImA" name="login">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_r6vGkMGMEeShnMC9Rz-ImA" name="nomeUtente">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_-PMdcIq6EeSnscOUdrdOsg" name="password">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_uLJC8MGMEeShnMC9Rz-ImA" name="password">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_JIEugIqaEeSBmtstobG6FA" name="GestoreRegistrazioni">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_JYb-YIqdEeSBmtstobG6FA" name="controllaInformazioniUtente">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YX8WsIq1EeSXVoWogbyQvQ" name="nome">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kMCGwMGSEeShnMC9Rz-ImA" name="controllaInformazioniUtente">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_qx_uIMGSEeShnMC9Rz-ImA" name="nome">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_aQTmgIq1EeSXVoWogbyQvQ" name="cognome">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_tLriUMGSEeShnMC9Rz-ImA" name="cognome">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_c3sfgIq1EeSXVoWogbyQvQ" name="nomeUtente">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_vDCskMGSEeShnMC9Rz-ImA" name="nomeUtente">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_e4hHwIq1EeSXVoWogbyQvQ" name="password">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_wx-TkMGSEeShnMC9Rz-ImA" name="password">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_q0_O4Iq3EeSXVoWogbyQvQ" name="indirizzoEMail">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_0LVcEMGSEeShnMC9Rz-ImA" name="eMail">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
@@ -1181,7 +1186,7 @@ sicurezza dei metodi di pagamento</body>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_wn6ggYqbEeSBmtstobG6FA" name="Login_MessageSend" covered="_GTjjAIqbEeSBmtstobG6FA" message="_wn6ggIqbEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_MCvTYYqbEeSBmtstobG6FA" name="ActionExecSpec" covered="_GTjjAIqbEeSBmtstobG6FA" finish="_5-iRooqbEeSBmtstobG6FA" start="_lw4skYqbEeSBmtstobG6FA"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5-iRoYqbEeSBmtstobG6FA" name="MessageSend" covered="_KKyTQIqbEeSBmtstobG6FA" message="_5-iRoIqbEeSBmtstobG6FA"/>
-    <message xmi:type="uml:Message" xmi:id="_wn6ggIqbEeSBmtstobG6FA" name="Login_Message" receiveEvent="_wn6ggoqbEeSBmtstobG6FA" sendEvent="_wn6ggYqbEeSBmtstobG6FA" signature="_wnnlkIqbEeSBmtstobG6FA"/>
+    <message xmi:type="uml:Message" xmi:id="_wn6ggIqbEeSBmtstobG6FA" name="Login_Message" receiveEvent="_wn6ggoqbEeSBmtstobG6FA" sendEvent="_wn6ggYqbEeSBmtstobG6FA"/>
     <message xmi:type="uml:Message" xmi:id="_5-iRoIqbEeSBmtstobG6FA" name="LoginCompletato" messageSort="reply" receiveEvent="_5-iRooqbEeSBmtstobG6FA" sendEvent="_5-iRoYqbEeSBmtstobG6FA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_88EkUIqcEeSBmtstobG6FA" name="seqRegistrazione">
@@ -1388,20 +1393,20 @@ sicurezza dei metodi di pagamento</body>
         </guard>
       </operand>
     </fragment>
-    <message xmi:type="uml:Message" xmi:id="_EhUgoIqsEeSXVoWogbyQvQ" name="acquista_Message" receiveEvent="_EhUgooqsEeSXVoWogbyQvQ" sendEvent="_EhUgoYqsEeSXVoWogbyQvQ" signature="_Ps_zEIg0EeST08QPbeZpTg"/>
-    <message xmi:type="uml:Message" xmi:id="_VctqwIqsEeSXVoWogbyQvQ" name="geolocalizzaUtente_Message" receiveEvent="_Vc20sIqsEeSXVoWogbyQvQ" sendEvent="_VctqwYqsEeSXVoWogbyQvQ" signature="_jpSiYIg0EeST08QPbeZpTg"/>
+    <message xmi:type="uml:Message" xmi:id="_EhUgoIqsEeSXVoWogbyQvQ" name="acquista_Message" receiveEvent="_EhUgooqsEeSXVoWogbyQvQ" sendEvent="_EhUgoYqsEeSXVoWogbyQvQ"/>
+    <message xmi:type="uml:Message" xmi:id="_VctqwIqsEeSXVoWogbyQvQ" name="geolocalizzaUtente_Message" receiveEvent="_Vc20sIqsEeSXVoWogbyQvQ" sendEvent="_VctqwYqsEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_W2IUwIqsEeSXVoWogbyQvQ" name="posizione" messageSort="reply" receiveEvent="_W2IUwoqsEeSXVoWogbyQvQ" sendEvent="_W2IUwYqsEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_4OLekIqsEeSXVoWogbyQvQ" name="selezionaCitta" receiveEvent="_4OLekoqsEeSXVoWogbyQvQ" sendEvent="_4OLekYqsEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_6oPGMIqsEeSXVoWogbyQvQ" name="Message" messageSort="reply" receiveEvent="_6oPGMoqsEeSXVoWogbyQvQ" sendEvent="_6oPGMYqsEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_SCuasIqtEeSXVoWogbyQvQ" name="selezionaCompagnia" receiveEvent="_SCuasoqtEeSXVoWogbyQvQ" sendEvent="_SCuasYqtEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_dudCAIqtEeSXVoWogbyQvQ" name="ottieniCompagnia_Message" receiveEvent="_dumL8IqtEeSXVoWogbyQvQ" sendEvent="_dudCAYqtEeSXVoWogbyQvQ" signature="_duBkMIqtEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_e-YY0IqtEeSXVoWogbyQvQ" name="compagnia" messageSort="reply" receiveEvent="_e-hiwYqtEeSXVoWogbyQvQ" sendEvent="_e-hiwIqtEeSXVoWogbyQvQ"/>
-    <message xmi:type="uml:Message" xmi:id="_9s8-8IqtEeSXVoWogbyQvQ" name="acquistaBiglietto_Message" receiveEvent="_9tGv8IqtEeSXVoWogbyQvQ" sendEvent="_9s8-8YqtEeSXVoWogbyQvQ" signature="_fyxNsIg9EeST08QPbeZpTg"/>
+    <message xmi:type="uml:Message" xmi:id="_9s8-8IqtEeSXVoWogbyQvQ" name="acquistaBiglietto_Message" receiveEvent="_9tGv8IqtEeSXVoWogbyQvQ" sendEvent="_9s8-8YqtEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_EX2wsIquEeSXVoWogbyQvQ" name="ottieniBigliettoTratta_Message" receiveEvent="_EX2wsoquEeSXVoWogbyQvQ" sendEvent="_EX2wsYquEeSXVoWogbyQvQ" signature="__WN1EIg3EeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_G3v6kIquEeSXVoWogbyQvQ" name="tipoBiglietto" messageSort="reply" receiveEvent="_G35rkYquEeSXVoWogbyQvQ" sendEvent="_G35rkIquEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_OlEyoIquEeSXVoWogbyQvQ" name="crea_Message" receiveEvent="_OlEyooquEeSXVoWogbyQvQ" sendEvent="_OlEyoYquEeSXVoWogbyQvQ" signature="_4OGscIhDEeST08QPbeZpTg"/>
     <message xmi:type="uml:Message" xmi:id="_P9sLYIquEeSXVoWogbyQvQ" name="bigliettoCreato" messageSort="reply" receiveEvent="_P91VUIquEeSXVoWogbyQvQ" sendEvent="_P9sLYYquEeSXVoWogbyQvQ"/>
-    <message xmi:type="uml:Message" xmi:id="_13qoQIquEeSXVoWogbyQvQ" name="acquistaAbbonamento_Message" receiveEvent="_13qoQoquEeSXVoWogbyQvQ" sendEvent="_13qoQYquEeSXVoWogbyQvQ" signature="_tEQKgIhAEeST08QPbeZpTg"/>
+    <message xmi:type="uml:Message" xmi:id="_13qoQIquEeSXVoWogbyQvQ" name="acquistaAbbonamento_Message" receiveEvent="_13qoQoquEeSXVoWogbyQvQ" sendEvent="_13qoQYquEeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_sdFuwIqvEeSXVoWogbyQvQ" name="tipoBiglietto" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_46kjIIqvEeSXVoWogbyQvQ" name="create_Message" receiveEvent="_46ttEYqvEeSXVoWogbyQvQ" sendEvent="_46ttEIqvEeSXVoWogbyQvQ" signature="_Ein1VIeEEeSIP9QUrJ6RSQ"/>
     <message xmi:type="uml:Message" xmi:id="_6yVWAIqvEeSXVoWogbyQvQ" name="Message0" messageSort="reply" receiveEvent="_6yVWAoqvEeSXVoWogbyQvQ" sendEvent="_6yVWAYqvEeSXVoWogbyQvQ"/>
@@ -1435,8 +1440,8 @@ sicurezza dei metodi di pagamento</body>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_T_NXsIq8EeSnscOUdrdOsg" name="paga_MessageRecv" covered="_PWC0MIq8EeSnscOUdrdOsg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_kG8NEoq4EeSnscOUdrdOsg" name="ActionExecSpecFinish" covered="_Yzo7kIqyEeSXVoWogbyQvQ" execution="_kG8NEYq4EeSnscOUdrdOsg"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_QLsCwoq8EeSnscOUdrdOsg" name="BehaviorExecSpec0Finish" covered="_PWC0MIq8EeSnscOUdrdOsg" execution="_QLsCwYq8EeSnscOUdrdOsg"/>
-    <message xmi:type="uml:Message" xmi:id="_8jJgcIq8EeSnscOUdrdOsg" name="selezionaMetodoPagamento_Message" receiveEvent="_8jJgcoq8EeSnscOUdrdOsg" sendEvent="_8jJgcYq8EeSnscOUdrdOsg" signature="_8ijDgIq8EeSnscOUdrdOsg"/>
-    <message xmi:type="uml:Message" xmi:id="_CdDTEIq9EeSnscOUdrdOsg" name="riceviPagamento_Message" receiveEvent="_CdDTEoq9EeSnscOUdrdOsg" sendEvent="_CdDTEYq9EeSnscOUdrdOsg" signature="_Ccc2IIq9EeSnscOUdrdOsg"/>
+    <message xmi:type="uml:Message" xmi:id="_8jJgcIq8EeSnscOUdrdOsg" name="selezionaMetodoPagamento_Message" receiveEvent="_8jJgcoq8EeSnscOUdrdOsg" sendEvent="_8jJgcYq8EeSnscOUdrdOsg"/>
+    <message xmi:type="uml:Message" xmi:id="_CdDTEIq9EeSnscOUdrdOsg" name="riceviPagamento_Message" receiveEvent="_CdDTEoq9EeSnscOUdrdOsg" sendEvent="_CdDTEYq9EeSnscOUdrdOsg"/>
     <message xmi:type="uml:Message" xmi:id="_FsS2QIq9EeSnscOUdrdOsg" name="oggettoPagato" messageSort="reply" receiveEvent="_FsS2Qoq9EeSnscOUdrdOsg" sendEvent="_FsS2QYq9EeSnscOUdrdOsg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interaction" xmi:id="_5vKkoIq2EeSXVoWogbyQvQ" name="Interaction2">
@@ -1469,18 +1474,19 @@ sicurezza dei metodi di pagamento</body>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k9kvkYq3EeSXVoWogbyQvQ" name="create_MessageRecv" covered="_8jaN4Iq2EeSXVoWogbyQvQ" message="_k9bloIq3EeSXVoWogbyQvQ"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_jaGxsoq3EeSXVoWogbyQvQ" name="BehaviorExecSpec0Finish" covered="_8jaN4Iq2EeSXVoWogbyQvQ" execution="_jaGxsYq3EeSXVoWogbyQvQ"/>
     <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_i4KiQoq3EeSXVoWogbyQvQ" name="ActionExecSpec0Finish" covered="_8jaN4Iq2EeSXVoWogbyQvQ" execution="_i4KiQYq3EeSXVoWogbyQvQ"/>
-    <message xmi:type="uml:Message" xmi:id="_IN_lsIq3EeSXVoWogbyQvQ" name="controllaInformazioniUtente_Message" signature="_JYb-YIqdEeSBmtstobG6FA"/>
+    <message xmi:type="uml:Message" xmi:id="_IN_lsIq3EeSXVoWogbyQvQ" name="controllaInformazioniUtente_Message"/>
     <message xmi:type="uml:Message" xmi:id="_L4UiYIq3EeSXVoWogbyQvQ" name="Message" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_MjBFMIq3EeSXVoWogbyQvQ" name="Message0" messageSort="reply"/>
     <message xmi:type="uml:Message" xmi:id="_N2VuQIq3EeSXVoWogbyQvQ" name="Message1" messageSort="reply"/>
-    <message xmi:type="uml:Message" xmi:id="_QjU48Iq3EeSXVoWogbyQvQ" name="controllaInformazioniUtente_Message0" receiveEvent="_Qjep8Iq3EeSXVoWogbyQvQ" sendEvent="_QjU48Yq3EeSXVoWogbyQvQ" signature="_JYb-YIqdEeSBmtstobG6FA"/>
+    <message xmi:type="uml:Message" xmi:id="_QjU48Iq3EeSXVoWogbyQvQ" name="controllaInformazioniUtente_Message0" receiveEvent="_Qjep8Iq3EeSXVoWogbyQvQ" sendEvent="_QjU48Yq3EeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_RwnLcIq3EeSXVoWogbyQvQ" name="informazioniValide" messageSort="reply" receiveEvent="_RwnLcoq3EeSXVoWogbyQvQ" sendEvent="_RwnLcYq3EeSXVoWogbyQvQ"/>
     <message xmi:type="uml:Message" xmi:id="_k9bloIq3EeSXVoWogbyQvQ" name="create_Message" receiveEvent="_k9kvkYq3EeSXVoWogbyQvQ" sendEvent="_k9kvkIq3EeSXVoWogbyQvQ" signature="_EieEjYeEEeSIP9QUrJ6RSQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_fozYYIq5EeSnscOUdrdOsg" name="GestorePagamenti">
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ccc2IIq9EeSnscOUdrdOsg" name="riceviPagamento"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VjJcsMGQEeShnMC9Rz-ImA" name="riceviPagamento"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Usage" xmi:id="_DTqncIq8EeSnscOUdrdOsg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_fozYYIq5EeSnscOUdrdOsg"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_G1w1MIq8EeSnscOUdrdOsg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_4SoaYIgzEeST08QPbeZpTg"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_KA3fQIq8EeSnscOUdrdOsg" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_2f4qYIgzEeST08QPbeZpTg"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_URddQMGOEeShnMC9Rz-ImA" client="_LqGyEIkIEeSuO9MkpaY3xQ" supplier="_9aJgMIkXEeSuO9MkpaY3xQ"/>
 </uml:Model>
