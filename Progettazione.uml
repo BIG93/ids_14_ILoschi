@@ -7,7 +7,7 @@
     <body>Tecnicamente annotare il tipo di dipendenza con un commento è sbagliato.&#xD;
 Però:&#xD;
 &#xD;
-&lt;&lt;crea>></body>
+&lt;&lt;istanzia>></body>
   </ownedComment>
   <packageImport xmi:type="uml:PackageImport" xmi:id="_F4zTAV3gEeSVHavcHHUXgQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -731,7 +731,7 @@ sicurezza dei metodi di pagamento</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EieEWYeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EieEWoeEEeSIP9QUrJ6RSQ" value="1"/>
     </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_EieEW4eEEeSIP9QUrJ6RSQ" name="confort" type="_EieEUIeEEeSIP9QUrJ6RSQ" association="_EieEV4eEEeSIP9QUrJ6RSQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_EieEW4eEEeSIP9QUrJ6RSQ" name="confort" type="_EieEUIeEEeSIP9QUrJ6RSQ" aggregation="composite" association="_EieEV4eEEeSIP9QUrJ6RSQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EieEXIeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EieEXYeEEeSIP9QUrJ6RSQ" value="1"/>
     </ownedEnd>
@@ -741,12 +741,11 @@ sicurezza dei metodi di pagamento</body>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_EieEbIeEEeSIP9QUrJ6RSQ" name="Amministratore">
     <generalization xmi:type="uml:Generalization" xmi:id="_tod70IeFEeSIP9QUrJ6RSQ" general="_lHv38IeFEeSIP9QUrJ6RSQ"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_EieEbYeEEeSIP9QUrJ6RSQ" name="notifica" type="_EieEVIeEEeSIP9QUrJ6RSQ" association="_Ein1cYeEEeSIP9QUrJ6RSQ">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EieEbYeEEeSIP9QUrJ6RSQ" name="notifica" type="_EieEVIeEEeSIP9QUrJ6RSQ" aggregation="composite" association="_Ein1cYeEEeSIP9QUrJ6RSQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EieEboeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EieEb4eEEeSIP9QUrJ6RSQ" value="*"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Dependency" xmi:id="_EieEeoeEEeSIP9QUrJ6RSQ" name="crea" client="_EieEbIeEEeSIP9QUrJ6RSQ" supplier="_EieEh4eEEeSIP9QUrJ6RSQ"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_EieEe4eEEeSIP9QUrJ6RSQ" name="Tratta">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_EieEfIeEEeSIP9QUrJ6RSQ" name="idTratta">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -816,7 +815,7 @@ sicurezza dei metodi di pagamento</body>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_Ein1X4eEEeSIP9QUrJ6RSQ" name="acquista" memberEnd="_Ein1Y4eEEeSIP9QUrJ6RSQ _Ein1YIeEEeSIP9QUrJ6RSQ" navigableOwnedEnd="_Ein1YIeEEeSIP9QUrJ6RSQ">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Ein1YIeEEeSIP9QUrJ6RSQ" name="titoloDiViaggio" type="_Ein1dYeEEeSIP9QUrJ6RSQ" association="_Ein1X4eEEeSIP9QUrJ6RSQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ein1YIeEEeSIP9QUrJ6RSQ" name="titoloDiViaggio" type="_Ein1dYeEEeSIP9QUrJ6RSQ" aggregation="composite" association="_Ein1X4eEEeSIP9QUrJ6RSQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ein1YYeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ein1YoeEEeSIP9QUrJ6RSQ" value="*"/>
     </ownedEnd>
@@ -841,7 +840,7 @@ sicurezza dei metodi di pagamento</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ein1bIeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ein1bYeEEeSIP9QUrJ6RSQ" value="1"/>
     </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_Ein1boeEEeSIP9QUrJ6RSQ" name="corsa" type="_EieEhYeEEeSIP9QUrJ6RSQ" association="_Ein1aoeEEeSIP9QUrJ6RSQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ein1boeEEeSIP9QUrJ6RSQ" name="corsa" type="_EieEhYeEEeSIP9QUrJ6RSQ" aggregation="composite" association="_Ein1aoeEEeSIP9QUrJ6RSQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ein1b4eEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ein1cIeEEeSIP9QUrJ6RSQ" value="*"/>
     </ownedEnd>
@@ -853,7 +852,7 @@ sicurezza dei metodi di pagamento</body>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_Ein1dYeEEeSIP9QUrJ6RSQ" name="TitoloDiViaggio">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ein1eYeEEeSIP9QUrJ6RSQ" name="idTitolo" isStatic="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ein1eYeEEeSIP9QUrJ6RSQ" name="idTitolo">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_Xf-LMMGPEeShnMC9Rz-ImA" name="costo">
@@ -872,7 +871,7 @@ sicurezza dei metodi di pagamento</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u8p9AoeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8p9A4eEEeSIP9QUrJ6RSQ" value="1"/>
     </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_u8gzEIeEEeSIP9QUrJ6RSQ" name="tratta" type="_EieEe4eEEeSIP9QUrJ6RSQ" association="_u8p9AIeEEeSIP9QUrJ6RSQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_u8gzEIeEEeSIP9QUrJ6RSQ" name="tratta" type="_EieEe4eEEeSIP9QUrJ6RSQ" aggregation="composite" association="_u8p9AIeEEeSIP9QUrJ6RSQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u8gzEYeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u8gzEoeEEeSIP9QUrJ6RSQ" value="*"/>
     </ownedEnd>
@@ -882,7 +881,7 @@ sicurezza dei metodi di pagamento</body>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-eMYRYeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-eMYRoeEEeSIP9QUrJ6RSQ" value="1"/>
     </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_-eMYQIeEEeSIP9QUrJ6RSQ" name="controllore" type="_EieEh4eEEeSIP9QUrJ6RSQ" association="_-eMYQ4eEEeSIP9QUrJ6RSQ">
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-eMYQIeEEeSIP9QUrJ6RSQ" name="controllore" type="_EieEh4eEEeSIP9QUrJ6RSQ" aggregation="shared" association="_-eMYQ4eEEeSIP9QUrJ6RSQ">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-eMYQYeEEeSIP9QUrJ6RSQ" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-eMYQoeEEeSIP9QUrJ6RSQ" value="*"/>
     </ownedEnd>
@@ -1489,4 +1488,6 @@ sicurezza dei metodi di pagamento</body>
   <packagedElement xmi:type="uml:Usage" xmi:id="_G1w1MIq8EeSnscOUdrdOsg" client="_2f4qYIgzEeST08QPbeZpTg" supplier="_4SoaYIgzEeST08QPbeZpTg"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_KA3fQIq8EeSnscOUdrdOsg" client="_EieEX4eEEeSIP9QUrJ6RSQ" supplier="_2f4qYIgzEeST08QPbeZpTg"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_URddQMGOEeShnMC9Rz-ImA" client="_LqGyEIkIEeSuO9MkpaY3xQ" supplier="_9aJgMIkXEeSuO9MkpaY3xQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_sLAsQMJSEeSB2tM3RLbpew" name="&lt;&lt;istanzia>>" client="_EieEbIeEEeSIP9QUrJ6RSQ" supplier="_EieEh4eEEeSIP9QUrJ6RSQ"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ouj_4MJTEeSB2tM3RLbpew" name="GestoreDataBase"/>
 </uml:Model>
